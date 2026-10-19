@@ -1,6 +1,6 @@
 # Phrasevale — Audio Shadowing
 
-**Development · not submitted or released.** Consumer name remains provisional pending App Store Connect reservation. Built by **Sepideh Javanbakht Dalir**.
+**Development — build 1.0 (1) uploaded · not submitted for App Review or released.** Apple’s native validation passed. Built by **Sepideh Javanbakht Dalir**.
 
 <img src="assets/icon.png" alt="Phrasevale paired-voices icon" width="104">
 
@@ -30,9 +30,11 @@ SwiftUI, Swift concurrency, AVFoundation, AVAudioSession, Files and StoreKit2. N
 
 Twenty-one local core and StoreKit checks passed on the iOS17 simulator, including decoded region bounds, long-source handling, atomic recovery, permission cancellation, a controlled blocked-start timeout, verified local purchase/restore/refund, pending, cancellation and offline entitlement behavior. Native capture flows passed on current iPhone/iPad simulators. Corrected maximum-Dynamic-Type dark layouts passed portrait/landscape checks on compact iPhone and iPad and were visually inspected.
 
-These are local simulator and Xcode StoreKitTest results. They do not establish genuine Sandbox purchases or physical microphone/headphone/interruption behavior. An initial iOS17 simulator input test failed with host HAL startup errors and remains preserved in the engineering history. After the serial audio-worker refactor, actual recorder/decoded-file/response-playback integration passed on both iOS17.0 and iOS26.5 simulators. These passes are measured test results; physical recording remains a separate gate.
+Local StoreKitTest results do not establish genuine Sandbox purchases. Physical verification has a separate evidence trail. An initial iOS17 simulator input test failed with host HAL startup errors and remains preserved in the engineering history. After the serial audio-worker refactor, actual recorder/decoded-file/response-playback integration passed on both iOS17.0 and iOS26.5 simulators. Physical results are recorded separately below.
 
-An unsigned Universal iOS15 Release archive compiled with Xcode26.5. An iOS15 runtime was unavailable. Physical microphone/headphone/interruption checks, genuine Sandbox, signed archive validation, upload and review submission remain open. Apple account access and an explicit IAP-capable signing profile are required. TestFlight is skipped by publisher instruction.
+Three actual tests passed on a physical iPhone17ProMax/iOS26.1: built-in microphone capture with decoded nonzero samples and completed speaker playback, playback-to-pause timing, and the UI record/save/relaunch/background flow. This does not certify subjective sound quality, headphone disconnect or real incoming-call interruption.
+
+A signed Universal iOS15 Release archive compiled with Xcode26.5 and passed Apple’s native App Store validation. Explicit development and App Store distribution profiles match the bundle. The native App Store delivery workflow completed upload of version1.0(1); no App Review submission or release is claimed. An iOS15 runtime was unavailable. Genuine Sandbox and remaining owner listening/route checks remain open. TestFlight is skipped by publisher instruction.
 
 The visuals show the actual native app with documented original-text demo audio rendered locally. No speaker's private recording or third-party lesson is published. This portfolio is development evidence, not proof of learning outcomes, customer demand or App Store approval.
 
@@ -47,4 +49,3 @@ The visuals show the actual native app with documented original-text demo audio 
 [Full campaign and project overview](https://sepidehdalir.github.io/phrasevale-showcase/) · [Support](https://sepidehdalir.github.io/phrasevale-showcase/support.html) · [Privacy](https://sepidehdalir.github.io/phrasevale-showcase/privacy.html)
 
 [www.arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
-
