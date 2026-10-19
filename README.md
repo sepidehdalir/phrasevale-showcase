@@ -30,7 +30,7 @@ SwiftUI, Swift concurrency, AVFoundation, AVAudioSession, Files and StoreKit2. N
 
 Twenty-one local core and StoreKit checks passed on the iOS17 simulator, including decoded region bounds, long-source handling, atomic recovery, permission cancellation, a controlled blocked-start timeout, verified local purchase/restore/refund, pending, cancellation and offline entitlement behavior. Native capture flows passed on current iPhone/iPad simulators. Corrected maximum-Dynamic-Type dark layouts passed portrait/landscape checks on compact iPhone and iPad and were visually inspected.
 
-These are local simulator and Xcode StoreKitTest results. They do not establish genuine Sandbox purchases or physical microphone/headphone/interruption behavior. A live iOS17 simulator input test failed with host HAL startup errors; a separate iOS26.5 simulator test subsequently passed actual recorder/decoded-file/response-playback integration. No recording pass is inferred from the timeout mitigation.
+These are local simulator and Xcode StoreKitTest results. They do not establish genuine Sandbox purchases or physical microphone/headphone/interruption behavior. An initial iOS17 simulator input test failed with host HAL startup errors and remains preserved in the engineering history. After the serial audio-worker refactor, actual recorder/decoded-file/response-playback integration passed on both iOS17.0 and iOS26.5 simulators. These passes are measured test results; physical recording remains a separate gate.
 
 An unsigned Universal iOS15 Release archive compiled with Xcode26.5. An iOS15 runtime was unavailable. Physical microphone/headphone/interruption checks, genuine Sandbox, signed archive validation, upload and review submission remain open. Apple account access and an explicit IAP-capable signing profile are required. TestFlight is skipped by publisher instruction.
 
@@ -48,5 +48,3 @@ The visuals show the actual native app with documented original-text demo audio 
 
 [www.arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
 
-
-A live iOS17 simulator recording test failed with host HAL input startup errors. That failure is preserved; physical recording is still an open release gate. Recorder startup was moved off the main actor with a bounded timeout and cancellation so unavailable input cannot freeze the workspace.
