@@ -1,5 +1,7 @@
 # Phrasevale — Audio Shadowing
 
+**Unsubmitted recovery work — October 21, 2026:** A failed phrase save now preserves the selection instead of selecting a phrase that was never stored. Native integrity tests passed 11/11 on iOS 17 and 26.5, including a real write failure and successful retry. The unsigned Release build passed. This is private-source work, not a new signed binary, submission, approval or resolution of Guideline 4.3. Premium campaign pixels are unchanged.
+
 **App 1.0 (1) rejected under Guideline 4.3(a) on October 19, 2026; an app-specific clarification response was sent. Lifetime Pro is Ready for Review. Not approved or released.** Apple’s native validation passed. Built by **Sepideh Javanbakht Dalir**.
 
 <img src="assets/icon.png" alt="Phrasevale paired-voices icon" width="104">
