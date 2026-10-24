@@ -1,53 +1,29 @@
 # Phrasevale — Audio Shadowing
 
-**Unsubmitted recovery work — October 21, 2026:** A failed phrase save now preserves the selection instead of selecting a phrase that was never stored. Native integrity tests passed 11/11 on iOS 17 and 26.5, including a real write failure and successful retry. The unsigned Release build passed. This is private-source work, not a new signed binary, submission, approval or resolution of Guideline 4.3. Premium campaign pixels are unchanged.
+**Local recovery candidate1.0(2), UNSUBMITTED.** The last verified Apple version1.0(1) was rejected under Guideline4.3(a); a clarification was sent. Lifetime Pro was Ready for Review. The current candidate has not been uploaded, resubmitted, approved or released. Apple authentication and remaining production checks are pending.
 
-**App 1.0 (1) rejected under Guideline 4.3(a) on October 19, 2026; an app-specific clarification response was sent. Lifetime Pro is Ready for Review. Not approved or released.** Apple’s native validation passed. Built by **Sepideh Javanbakht Dalir**.
+Built by **Sepideh Javanbakht Dalir** · [arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
 
-<img src="assets/icon.png" alt="Phrasevale paired-voices icon" width="104">
+## A complete personal audio practice session
 
-Practise one phrase at a time from audio you own. Select a source region, listen at your pace, leave a speaking gap, record a response, then switch between the source and your response to compare by ear.
+Bring audio you own, save short source-relative phrases, and work through a focused sequence: listen with a speaking pause, speak aloud, optionally record your response, compare the source followed by your voice, then reflect on one detail. Mark phrases “Needs another try” or “Comfortable for now,” retain personal notes, revisit unfinished phrases and resume the last phrase.
 
-<img src="assets/iPhone-01.png" alt="Phrasevale iPhone campaign" width="280"> <img src="assets/iPad-01.png" alt="Phrasevale dedicated iPad campaign" width="420">
+The assessments belong to the learner. There is no automatic speech scoring, transcription, licensed lesson library, actor-role reader or cloud service. All session tools are free within one source. The existing one-time Lifetime Pro expands the source library, named collections and saved presets. Existing audio, purchases and portable backups remain supported.
 
-## Product
+## Current native campaign
 
-- Local Files import with a waveform and numeric source positions.
-- Adjustable listening speed and speaking pause, with repeating practice.
-- A response paired with each saved phrase; no transcription, scoring or learning guarantees.
-- Saved phrases and named collections, reusable presets and validated portable recovery.
-- Universal iPhone/iPad15+ with a dedicated tablet source shelf.
+<img src="assets/session-iPhone-01.png" alt="Phrasevale iPhone session campaign 1" width="260"> <img src="assets/session-iPhone-02.png" alt="Phrasevale iPhone session campaign 2" width="260"> <img src="assets/session-iPhone-03.png" alt="Phrasevale iPhone session campaign 3" width="260"> <img src="assets/session-iPhone-04.png" alt="Phrasevale iPhone session campaign 4" width="260"> <img src="assets/session-iPhone-05.png" alt="Phrasevale iPhone session campaign 5" width="260"> <img src="assets/session-iPhone-06.png" alt="Phrasevale iPhone session campaign 6" width="260"> 
 
-One useful source includes the full practice loop. A one-time Lifetime Pro upgrade adds multiple sources, named collections and saved presets. No subscription. The real in-app price comes from StoreKit.
+<img src="assets/session-iPad-01.png" alt="Phrasevale dedicated iPad session campaign 1" width="340"> <img src="assets/session-iPad-02.png" alt="Phrasevale dedicated iPad session campaign 2" width="340"> <img src="assets/session-iPad-03.png" alt="Phrasevale dedicated iPad session campaign 3" width="340"> <img src="assets/session-iPad-04.png" alt="Phrasevale dedicated iPad session campaign 4" width="340"> <img src="assets/session-iPad-05.png" alt="Phrasevale dedicated iPad session campaign 5" width="340"> <img src="assets/session-iPad-06.png" alt="Phrasevale dedicated iPad session campaign 6" width="340"> 
 
-## A distinct engineering problem
+The campaign uses actual native UI and illustrative practice with original-text audio rendered locally. No private recording or commercial source is published.
 
-The central model is imported source audio, stable decoded regions and paired responses. AVAudioPlayerNode schedules source frame positions; AVAudioUnitTimePitch adjusts listening speed without changing pitch. The speaking pause starts after audio completion. Cancellation generations protect microphone permission and stale audio callbacks. Media-service resets rebuild the audio graph.
+## Engineering and honest readiness
 
-Persistence uses immutable UUID media and an atomic manifest. Backups include originals and responses only after explicit user action. Restore validates names, size, references and real decoded metadata in staging before replacing the library; failures preserve committed data.
+SwiftUI, AVFoundation/AVAudioSession, StoreKit2 and protected local files. Saved phrases retain decoded source positions; native playback completion drives speaking pauses. Atomic validation protects media and new personal reflection/resume metadata. Previous schema1 libraries and backups remain readable. Changing a phrase's region invalidates its old response and self-assessment; renaming preserves them.
 
-SwiftUI, Swift concurrency, AVFoundation, AVAudioSession, Files and StoreKit2. No product backend, external AI, accounts, analytics SDK or third-party runtime dependencies. Commercial source is backed up in a separate private repository.
+Scoped iOS17 and26.5 native checks cover storage/recovery, audio completion/cancellation, learner session journeys and local StoreKit behavior. Final dated outcomes and remaining checks are maintained in the private production evidence. These checks overlap and are not a claim of exhaustive coverage or genuine Sandbox purchase success. Current physical microphone/routes/offline and spoken VoiceOver checks remain unverified; historical build1 hardware proof is not candidate2 proof. Actual iOS15 runtime is unavailable. TestFlight and remaining genuine Sandbox are publisher-SKIPPED, never passed.
 
-## Verification and limits
+The rejected build1's original Apple validation is historical. Local packaging of candidate2 does not establish Apple server validation, upload or resubmission. These product changes do not prove market originality or resolution of4.3(a). Metadata and reviewer walkthrough remain drafts until the candidate is genuinely ready.
 
-Twenty-one local core and StoreKit checks passed on the iOS17 simulator, including decoded region bounds, long-source handling, atomic recovery, permission cancellation, a controlled blocked-start timeout, verified local purchase/restore/refund, pending, cancellation and offline entitlement behavior. Native capture flows passed on current iPhone/iPad simulators. Corrected maximum-Dynamic-Type dark layouts passed portrait/landscape checks on compact iPhone and iPad and were visually inspected.
-
-Local StoreKitTest results do not establish genuine Sandbox purchases. Physical verification has a separate evidence trail. An initial iOS17 simulator input test failed with host HAL startup errors and remains preserved in the engineering history. After the serial audio-worker refactor, actual recorder/decoded-file/response-playback integration passed on both iOS17.0 and iOS26.5 simulators. Physical results are recorded separately below.
-
-Three actual tests passed on a physical iPhone17ProMax/iOS26.1: built-in microphone capture with decoded nonzero samples and completed speaker playback, playback-to-pause timing, and the UI record/save/relaunch/background flow. The publisher separately confirmed clear speaker and headphone sound and that disconnect stops playback. Actual incoming-call interruption and spoken VoiceOver focus checks are deferred; no full accessibility-support certification is claimed.
-
-A signed Universal iOS15 Release archive compiled with Xcode26.5 and passed Apple’s native App Store validation. Explicit development and App Store distribution profiles match the bundle. Apple accepted version1.0(1) and Lifetime Pro for App Review on October18,2026 at11:28PM America/Vancouver. On October19,2026, Apple rejected app1.0(1) under Guideline4.3(a); Lifetime Pro is Ready for Review. An app-specific response with a reproducible demo workflow and a request for the comparison details was sent and verified in App Store Connect at4:20PM America/Vancouver. No corrective build or resubmission is claimed; approval and release have not occurred. The owner-approved Data Not Collected declaration and final privacy policy are published. An iOS15 runtime was unavailable. The real Apple catalog/paywall loaded; a no-charge Sandbox sheet was reached but an account-permission error prevented a verified purchase. Remaining genuine Sandbox purchase/restore/relaunch checks were explicitly skipped by the publisher; no Sandbox purchase pass is claimed. TestFlight is skipped by publisher instruction.
-
-The visuals show the actual native app with documented original-text demo audio rendered locally. No speaker's private recording or third-party lesson is published. This portfolio is development evidence, not proof of learning outcomes, customer demand or App Store approval.
-
-## Campaign
-
-### iPhone
-![iPhone campaign](assets/iPhone-thumbnails.png)
-
-### iPad
-![iPad campaign](assets/iPad-thumbnails.png)
-
-[Full campaign and project overview](https://sepidehdalir.github.io/phrasevale-showcase/) · [Support](https://sepidehdalir.github.io/phrasevale-showcase/support.html) · [Privacy](https://sepidehdalir.github.io/phrasevale-showcase/privacy.html)
-
-[www.arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
+[Product case study](https://sepidehdalir.github.io/phrasevale-showcase/) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio)
