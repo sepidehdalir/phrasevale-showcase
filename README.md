@@ -1,6 +1,6 @@
 # Phrasevale — Audio Shadowing
 
-**Apple resolved Guideline 4.3 for app 1.0 (1). Screenshot pricing references under 2.3.7 have been corrected and uploaded; asset processing and resubmission remain pending. Lifetime Pro is Ready for Review. Not approved or released. Verified November 5, 2026.**
+**Apple resolved Guideline 4.3 for app 1.0 (1). Screenshot pricing references under 2.3.7 were corrected. App 1.0 (1) and Lifetime Pro were resubmitted November 5 at 4:08 PM America/Vancouver; both are Waiting for Review. Not approved or released. Verified November 5, 2026.**
 
 Local candidate 1.0 (2) remains UNSUBMITTED and separate from the metadata-only correction to build 1. The session workflow below describes that local candidate.
 
