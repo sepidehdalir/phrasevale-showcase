@@ -1,6 +1,8 @@
 # Phrasevale — Audio Shadowing
 
-**Local recovery candidate1.0(2), UNSUBMITTED.** The last verified Apple version1.0(1) was rejected under Guideline4.3(a); a clarification was sent. Lifetime Pro was Ready for Review. The current candidate has not been uploaded, resubmitted, approved or released. Apple authentication and remaining production checks are pending.
+**Apple resolved Guideline 4.3 for app 1.0 (1). Screenshot pricing references under 2.3.7 have been corrected and uploaded; asset processing and resubmission remain pending. Lifetime Pro is Ready for Review. Not approved or released. Verified November 5, 2026.**
+
+Local candidate 1.0 (2) remains UNSUBMITTED and separate from the metadata-only correction to build 1. The session workflow below describes that local candidate.
 
 Built by **Sepideh Javanbakht Dalir** · [arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
 
@@ -10,7 +12,7 @@ Bring audio you own, save short source-relative phrases, and work through a focu
 
 The assessments belong to the learner. There is no automatic speech scoring, transcription, licensed lesson library, actor-role reader or cloud service. All session tools are free within one source. The existing one-time Lifetime Pro expands the source library, named collections and saved presets. Existing audio, purchases and portable backups remain supported.
 
-## Current native campaign
+## Local candidate 1.0 (2) native campaign
 
 <img src="assets/session-iPhone-01.png" alt="Phrasevale iPhone session campaign 1" width="260"> <img src="assets/session-iPhone-02.png" alt="Phrasevale iPhone session campaign 2" width="260"> <img src="assets/session-iPhone-03.png" alt="Phrasevale iPhone session campaign 3" width="260"> <img src="assets/session-iPhone-04.png" alt="Phrasevale iPhone session campaign 4" width="260"> <img src="assets/session-iPhone-05.png" alt="Phrasevale iPhone session campaign 5" width="260"> <img src="assets/session-iPhone-06.png" alt="Phrasevale iPhone session campaign 6" width="260">
 
@@ -24,6 +26,12 @@ SwiftUI, AVFoundation/AVAudioSession, StoreKit2 and protected local files. Saved
 
 Scoped iOS17 and26.5 native checks cover storage/recovery, audio completion/cancellation, learner session journeys and local StoreKit behavior. Final dated outcomes and remaining checks are maintained in the private production evidence. These checks overlap and are not a claim of exhaustive coverage or genuine Sandbox purchase success. Automated audits retain a compact-phone contrast diagnostic and an iPad editor hit-target finding; no unfiltered whole-app accessibility pass is claimed. Current physical microphone/routes/offline and spoken VoiceOver checks remain unverified; historical build1 hardware proof is not candidate2 proof. Actual iOS15 runtime is unavailable. TestFlight and remaining genuine Sandbox are publisher-SKIPPED, never passed.
 
-The rejected build1's original Apple validation is historical. Local packaging of candidate2 does not establish Apple server validation, upload or resubmission. These product changes do not prove market originality or resolution of4.3(a). Metadata and reviewer walkthrough remain drafts until the candidate is genuinely ready.
+The rejected build1's original Apple validation is historical. Local packaging of candidate2 does not establish Apple server validation, upload or resubmission. Apple explicitly resolved 4.3 for submitted build1 following the October19 clarification; that resolution does not validate or submit local candidate2. Metadata and reviewer walkthrough remain drafts until the candidate is genuinely ready.
 
 [Product case study](https://sepidehdalir.github.io/phrasevale-showcase/) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio)
+
+## Submitted build 1 screenshot correction
+
+The original source-region and paired-response workflow is retained in build 1. Only screenshot pricing references and promotional copy were changed for 2.3.7.
+
+<img src="assets/iPhone-01.png" alt="Build 1 corrected iPhone campaign" width="260"> <img src="assets/iPad-01.png" alt="Build 1 corrected iPad campaign" width="340">
