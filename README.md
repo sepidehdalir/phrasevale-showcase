@@ -1,6 +1,6 @@
 # Phrasevale — Audio Shadowing
 
-**Apple requested revised screenshots under Guideline 2.3.3. The replacement iPhone and iPad sets are uploaded. App Store Connect is blocking resubmission on mainland China compliance requirements. Build 1.0 (1) remains Rejected, and Lifetime Pro is Ready for Review. Verified November 27, 2026.**
+**The iPhone and iPad screenshot correction for Guideline 2.3.3 was resubmitted November 27, 2026 at 8:54 AM Pacific time. Build 1.0 (1) and Lifetime Pro are both Waiting for Review.**
 
 Local candidate 1.0 (2) remains UNSUBMITTED and separate from the metadata-only correction to build 1. The session workflow below describes that local candidate.
 
