@@ -1,6 +1,6 @@
 # Phrasevale — Audio Shadowing
 
-**Apple resolved Guideline 4.3 for app 1.0 (1). Screenshot pricing references under 2.3.7 were corrected. App 1.0 (1) and Lifetime Pro were resubmitted November 5 at 4:08 PM America/Vancouver; both are Waiting for Review. Not approved or released. Verified November 5, 2026.**
+**Apple requested revised screenshots under Guideline 2.3.3. The replacement iPhone and iPad sets are uploaded. App Store Connect is blocking resubmission on mainland China compliance requirements. Build 1.0 (1) remains Rejected, and Lifetime Pro is Ready for Review. Verified November 27, 2026.**
 
 Local candidate 1.0 (2) remains UNSUBMITTED and separate from the metadata-only correction to build 1. The session workflow below describes that local candidate.
 
@@ -32,6 +32,6 @@ The rejected build1's original Apple validation is historical. Local packaging o
 
 ## Submitted build 1 screenshot correction
 
-The original source-region and paired-response workflow is retained in build 1. Only screenshot pricing references and promotional copy were changed for 2.3.7.
+The original source-region and paired-response workflow is retained in build 1. The November 5 correction addressed pricing references under 2.3.7. The November 27 screenshots show the native workspace, phrase selection, recorded-response comparison, saved phrases, and backup controls.
 
 <img src="assets/iPhone-01.png" alt="Build 1 corrected iPhone campaign" width="260"> <img src="assets/iPad-01.png" alt="Build 1 corrected iPad campaign" width="340">
